@@ -1,0 +1,113 @@
+.body {
+	background-image: url(imgconnexion/fondconnexion.gif);
+	background-size: cover;
+	text-align: center;
+}
+
+#body {
+	border-radius: 20px;
+	background-color:  rgba(255, 255, 255, 1);
+	margin-right: 300px;
+	margin-left: 300px;
+	margin-top: 200px;
+}
+
+#formul {
+	border-radius: 20px;
+	background-color:  rgba(255, 255, 255, 1);
+}
+
+.connectBox {
+	background: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 28%;
+	height: 450px;
+	margin: auto;
+	margin-top: 30px;
+	padding: 35px 0;
+	font-family: 'Lato', sans-serif;
+	color: #4B4B4B;
+	border-radius: 3px;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.connectBox .h1{
+	text-align: center;
+	font-size: 22px;
+	font-weight: normal;
+	margin-bottom: 55px;
+}
+
+.connectBox .form{
+	display: flex;
+	flex-direction: column;
+	width: 270px;
+	margin: auto;
+	font-size: 16px;
+}
+
+.connectBox .form .input {
+	border: none;
+	border-radius: 3px;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+	padding: 10px;
+	margin: 12px 0;
+	background: #F9F9F9;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	color: #4B4B4B;
+	transition: all 0.1s ease-in;
+}
+
+.connectBox .form .input:focus {
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+	background: white;
+}
+
+.connectBox .form .input:first-of-type {
+	margin-bottom: 40px;
+}
+
+.connectBox .form stayConnected .input {
+	margin-left: 12px;
+}
+
+.connectBox .form > .input[type="submit"] {
+	border: none;
+	text-decoration: none;
+	color: white;
+	background: #EF5350;
+	width: 140px;
+	font-size: 16px;
+	text-align: center;
+	align-self: center;
+	padding: 10px 0;
+	border-radius: 3px;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+	margin: 0;
+	transition: all 0.2s ease-in;
+}
+
+.connectBox .form > .input[type="submit"]:hover {
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+}
+
+.connectBox  .p {
+	align-self: center;
+}
+
+.connectBox .p > .a {
+	color: #EF5350;
+	text-decoration: none;
+}
+
+.container {
+	border-style: solid;
+	border-radius: 20px;
+	text-align: center;
+	margin-left: 300px;
+	margin-right: 300px;
+}
